@@ -1,0 +1,115 @@
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+
+    .header {
+      
+      background-size: cover;
+      background-position: center;
+      padding: 60px 20px;
+      text-align: center;
+      color: #2e1e0f;
+    }
+
+    .header h1 {
+      font-size: 2.8em;
+      margin: 0;
+    }
+
+    .header h2 {
+      font-size: 1.4em;
+      margin: 10px 0;
+      font-style: italic;
+    }
+
+    .profile-img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 4px solid #f9f3eb;
+      margin-top: 20px;
+    }
+
+    .section {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background-image: url(ABOUT\ ME.jpg);
+    }
+
+    .section-title {
+      font-size: 1.8em;
+      margin-bottom: 20px;
+    }
+
+    .about-text p {
+      line-height: 1.8;
+      font-size: 1.1em;
+      margin-bottom: 15px;
+    }
+
+    .books {
+      background-image: url(BOOKSINSPIRED.jpg);
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .book-covers {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .book-item img {
+      width: 150px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+
+    .interests {
+      background-color: #f4e8d8;
+      padding: 40px 20px;
+      text-align: center;
+      background-image: url(BG.jpg);
+    }
+
+    .interest-grid {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .interest-grid img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .contact {
+      background-color: #e0d2bd;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .contact h3 {
+      margin-bottom: 20px;
+    }
+
+    .contact p {
+      margin: 5px 0;
+    }
+
+    .footer {
+      background-color: #d4c0a8;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+    }
